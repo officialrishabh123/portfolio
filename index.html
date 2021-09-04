@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: 'Crete Round', serif;
+
+        }
+
+        .main {
+            width: 100vw;
+            color: white;
+            background: black;
+            padding: 5% 10%;
+        }
+
+        header {
+            padding: 15px 30px;
+            background: black;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            box-shadow: 1px 0 5px rgba(255, 255, 255, 0.8);
+        }
+
+        header .left {
+            font-size: 30px;
+            /* font-weight: 800; */
+        }
+
+        header .right ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+
+        header .right ul li {
+            padding: 0 30px;
+            list-style: none;
+
+        }
+
+        header .right ul li a {
+            text-decoration: none;
+
+        }
+
+        .col-1 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            color: white;
+            padding: 5% 10%;
+            text-align: center;
+        }
+
+        h1 {
+            color: tomato;
+            text-transform: uppercase;
+        }
+
+        .col-1 .image img {
+            width: 300px;
+            border-radius: 100%;
+            border: 1px solid black;
+            box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.8);
+
+        }
+
+        .col-1 .content .row-1 h1 {
+            font-size: 60px;
+            text-align: center;
+        }
+
+        .main .col-2 {
+            width: 100%;
+
+        }
+
+        .main .col-2 .education ol {
+            padding: 10px 40px;
+            font-size: 20px;
+        }
+
+        .col-3 ol,
+        .col-4 ol,.col-8 ol
+         {
+            padding: 10px 40px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            text-transform: uppercase;
+        }
+
+        .column {
+            margin-bottom: 5%;
+        }
+
+        .col-5 ol,
+        .col-5 ol li,.col-6 ol li,.col-7 ol{
+            padding: 0 5%;
+            font-size: 18px;
+
+        }
+
+        .col-5 ol li span,.col-6 ol li span {
+            color: teal;
+        }
+
+        hr {
+            margin: 10px;
+
+        }
+
+        .col-6 ol {
+            text-transform: capitalize;
+            margin: 0 5%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <div class="left">
+                <p>Rishabh tiwari</p>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/col-2">Skill</a></li>
+                    <li><a href="#">Experience</a></li>
+                    <li><a href="#">Projects</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="col-1">
+            <div class="image">
+                <img src="./rishabhphoto.jpeg" alt="photo">
+
+            </div>
+            <div class="content">
+                <div class="row-1">
+                    <h1>Rishabh tiwari</h1>
+                    <h2>I am a Front-end designer and expert in <strong>java programming and </strong><br>also a
+                        motivational speaker</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-2 column">
+            <div class="education">
+                <h1>Education :</h1>
+                <ol>
+                    <li>I am Pursuing B.Tech ( Information technology) from Axis Institute Of
+                        Technology and Management (2018 - 2022).
+                    </li>
+                    <li>Passed 12<sup>th</sup>
+                        from U. P Board 2017 in Diviyapur, Auraiya.</li>
+                    <li>Passed 10 <sup>th</sup>
+                        from U.P Board 2015 in Rulodli, Auraiya.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="col-3 column">
+            <h1>PROGRAMMING
+                PROFICIENCY :</h1>
+            <ol>
+                <li>HTMl</li>
+                <li>css</li>
+                <li>javascript</li>
+                <li>bootstrap</li>
+                <li>java</li>
+
+            </ol>
+        </div>
+        <div class="col-4 column">
+            <h1>FAMILIAR OPERATING/software :</h1>
+            <ol>
+                <li>
+                    window
+                </li>
+                <li>
+                    netbeans
+                </li>
+                <li>
+                    turbo C
+                </li>
+            </ol>
+        </div>
+        <div class="col-5 column">
+            <h1>INTERNSHIPS :</h1>
+            <ol>
+                <li>
+                    <ul>
+                        <li><span>Orgination name:</span>
+                            Skynet secure solution
+                        </li>
+                        <li><span>Position :</span>
+                            Front–end development
+                        </li>
+                        <li><span>Work Description :</span>
+                            <br> In this Internship We designed many WebPages
+                            with the help of HTML CSS JAVASCRIPT . It has a great
+                            Experience with the Origination. I learnt a lot and get some
+                        </li>
+                        <li><span>Duration :</span> 3 months</li>
+                    </ul>
+
+
+                </li>
+                <hr>
+                <li>
+                    <ul>
+                        <li><span>Orgination name:</span>
+                            Skynet secure solution
+                        </li>
+                        <li><span>Position :</span>
+                            Front–end development
+                        </li>
+                        <li><span>Work Description :</span>
+                            <br> In this Internship We designed many WebPages
+                            with the help of HTML CSS JAVASCRIPT . It has a great
+                            Experience with the Origination. I learnt a lot and get some
+                        </li>
+                        <li><span>Duration :</span> 3 months</li>
+                    </ul>
+
+
+                </li>
+            </ol>
+        </div>
+        <div class="col-5 column">
+            <h1>SEMINARS :</h1>
+            <ol>
+                <li>
+                    Seminar on “International Conference On Contemporary Computing
+                    And Application (IC3A 2020)” in 05–07 February 2020 in
+                    Lucknow. We learnt about Robotics, Computational Power and some
+                    Mathematical Problems like as Matrix Multiplication, Chain Rule were
+                    discussed.
+
+                </li>
+            </ol>
+        </div>
+        <div class="col-6 column">
+            <h1>projects :</h1>
+            <ol>
+                <li>
+                    <ul>
+                        <li><span>Project name:</span>
+                            Sales Management System 
+
+                        </li>
+                        <li><span>language Technology :</span> 
+                            C
+                        </li>
+                        <li><span>Description :</span>
+                            <br> In this project We designed 2 module and different Sub Modules. Modules were Admin Module and
+                            User Module. In The Admin module there were 6 parts- Register Product, Buy Product details, User
+                            Data ,Update Item list, Delete Data and In User Module there were 3 parts – “Register User, Buy
+                            Product, Total Bill ”.</li>
+                        
+                    </ul>
+
+
+                </li><hr>
+                <li>
+                    <ul>
+                        <li><span>Orgination name:</span>
+                             College Website 
+                        </li>
+                        <li><span>technology used :</span> 
+                            HTML,CSS,JAVASCRIPT                        </li>
+                        <li><span> Description :</span>
+                            <br>This is a Web Application where I designed Header, Footer, Sidebar, Contact Form And College Main
+                            body. It’s totally Responsive Website so that You can Check it in your Mobile.  </li>
+                        
+                    </ul>
+
+
+                </li>
+            </ol>
+        </div>
+        <div class="col-7 column">
+            <h1>
+                CERTIFICATE :
+            </h1>
+            <ol>
+                <li>Summer Training On CORE JAVA in Vararags Institute .</li>
+                <li>LEARNATHON Certificate By ICT ACADEMY during Lockdown and also got many certificate from CISCO,
+                    VM-WARE, AWS-EDUCATION and many more around 13 Certificate which is attached with Learnathon</li>
+                <li>
+                    DATABASE PROGRAMMING WITH SQL FROM ORACLE ACADEMY .
+                </li>
+            </ol>
+        </div>
+        <div class="col-8">
+            <h1>STRENGTHS :</h1>
+            <ol>
+                <li>Learning attitude</li>
+                <li>Self-motivation</li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>
